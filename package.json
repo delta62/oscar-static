@@ -1,0 +1,15 @@
+{
+  "name": "oscar-static",
+  "version": "0.0.1",
+  "description": "Static Web Server for an Oscar Game",
+  "main": "index.js",
+  "repository": "git@github.com:delta62/oscar-static.git",
+  "author": "Sam Noedel <sam.noedel@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "oscar-ui": "^0.0.8",
+    "reflect-metadata": "^0.1.9",
+    "socket.io-client": "^1.7.2",
+    "zone.js": "^0.7.6"
+  }
+}
