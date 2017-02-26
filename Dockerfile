@@ -17,10 +17,12 @@ COPY [                                        \
 ]
 
 # Copy images
-COPY [                                   \
-  "node_modules/oscar-resources/images", \
-  "/usr/share/nginx/html/"               \
+COPY [                                    \
+  "node_modules/oscar-resources/images/", \
+  "/usr/share/nginx/html/images/"         \
 ]
+
+RUN [ "ls", "usr/share/nginx/html" ]
 
 # Copy configuration
 COPY [ "nginx.conf", "/etc/nginx/nginx.conf" ]
