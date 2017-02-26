@@ -130,9 +130,9 @@ oscar-resources@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/oscar-resources/-/oscar-resources-1.0.7.tgz#49ae85ab5d18bae08238038b8a0a0b885e4381c9"
 
-oscar-ui@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/oscar-ui/-/oscar-ui-1.0.1.tgz#0a3c3660349f75014d84c373e93be5ceac8ea602"
+oscar-ui@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/oscar-ui/-/oscar-ui-1.0.2.tgz#e810eb93d2c973fa580e6e041084260ca05ed290"
   dependencies:
     oscar-resources "^1.0.7"
 
