@@ -17,9 +17,9 @@ COPY [                                        \
 ]
 
 # Copy images
-COPY [
-  "node_modules/oscar-resources/images" \
-  "/usr/share/nginx/html/"
+COPY [                                   \
+  "node_modules/oscar-resources/images", \
+  "/usr/share/nginx/html/"               \
 ]
 
 # Copy configuration
