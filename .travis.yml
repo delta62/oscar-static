@@ -6,6 +6,7 @@ node_js:
 services:
   - docker
 after_success:
+  - export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo $TRAVIS_PULL_REQUEST_BRANCH; fi)
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
     docker build -t delta62/oscar-static .;
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
