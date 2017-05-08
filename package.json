@@ -9,7 +9,7 @@
   "dependencies": {
     "oscar-ui": "^1.0.4",
     "reflect-metadata": "^0.1.9",
-    "socket.io-client": "^1.7.2",
+    "socket.io-client": "^2.0.0",
     "zone.js": "^0.7.6"
   }
 }
